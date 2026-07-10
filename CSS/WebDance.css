@@ -1,0 +1,41 @@
+body {
+  height: 800px;
+  background :linear-gradient(darkslategray,cadetblue);
+}
+header {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  color: lightcoral;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 26px;
+}
+.image1 {
+  height: 100px;
+}
+nav {
+  background-color: cornflowerblue;
+  padding: 8px 10px 8px 10px;
+  border-radius: 8px;
+}
+h1 {
+  color: rgb(161, 89, 161);
+  font-size: 32px;
+}
+p {
+  color: lightseagreen;
+  font-size: 20px;
+}
+a {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: rgb(161, 89, 161);
+}
+.inlinea {
+  font-size: 16px;
+  display: inline;
+    color:  #ff9100;
+}
