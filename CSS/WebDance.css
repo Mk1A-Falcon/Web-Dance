@@ -8,7 +8,6 @@ body {
 header {
   text-align: center;
   border-radius: 30px;
-  background: linear-gradient(#c12a99e4,rgba(94, 29, 207, 0.404));
   margin-bottom: 30px;
   margin-top: 20px;
   padding-top: 8px;
@@ -71,4 +70,12 @@ a {
 .wait {
   font-size: 16px;
   display: inline;
+}
+.button {
+    background: linear-gradient(#c12a99e4,rgba(94, 29, 207, 0.404));
+    font-size: 20px;
+    font-family:'Black Ops One', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 12px 10px 12px;
+    border: 0px;
+    border-radius: 18px;
 }
