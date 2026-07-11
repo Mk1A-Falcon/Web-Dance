@@ -1,27 +1,51 @@
+html {
+  color: black;
+}
 body {
-  height: 800px;
-  background :linear-gradient(darkslategray,cadetblue);
+  background: linear-gradient(darkslategray, cadetblue);
+  padding-bottom: 200px;
 }
 header {
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  color: rgb(161, 89, 161);
+  font-size: 32px;
+  font-family: "Geist Pixel", Arial, Helvetica, sans-serif;
 }
 h2 {
   color: lightcoral;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Montenegrin Gothic One", "Black Ops One";
   font-size: 26px;
 }
 .image1 {
   height: 100px;
 }
-nav {
+.navbar {
   background-color: darkslategrey;
   padding: 8px 10px 8px 10px;
   border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-h1 {
-  color: rgb(161, 89, 161);
-  font-size: 32px;
+.navy-lmao {
+  text-align: center;
+  display: inline-block;
+  column-gap: 30px;
+}
+.navbar-a {
+  font-size: 16px;
+  color: #c12a99;
+  background-color: rgba(94, 29, 207, 0.598);
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+  font-family: "Black Ops One", Arial, Helvetica, sans-serif;
+}
+
+.text {
+  padding-left: 200px;
+  padding-right: 200px;
 }
 p {
   color: lightseagreen;
@@ -34,8 +58,7 @@ a {
   font-size: 20px;
   color: rgb(161, 89, 161);
 }
-.inlinea {
+.wait {
   font-size: 16px;
   display: inline;
-  color:  #ff9100;
 }
