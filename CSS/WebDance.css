@@ -56,6 +56,10 @@ h2 {
   margin-bottom: 30px;
   border-radius: 20px;
   padding: 10px 10px 10px 10px;
+  transition: box-shadow 0.25s, ;
+}
+.text:hover {
+  box-shadow: 0 0 10px rgb(29, 207, 198);
 }
 p {
   color: rgb(38, 212, 203);
@@ -79,4 +83,11 @@ a {
     padding: 10px 12px 10px 12px;
     border: 0px;
     border-radius: 18px;
+    transition: background-color 0.12s;
+}
+.button:hover {
+  background-color: rgb(179, 91, 50);
+}
+.button:active {
+  background-color: aquamarine;
 }
