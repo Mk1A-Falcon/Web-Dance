@@ -15,7 +15,7 @@ h2 {
   height: 100px;
 }
 nav {
-  background-color: cornflowerblue;
+  background-color: darkslategrey;
   padding: 8px 10px 8px 10px;
   border-radius: 8px;
 }
@@ -37,5 +37,5 @@ a {
 .inlinea {
   font-size: 16px;
   display: inline;
-    color:  #ff9100;
+  color:  #ff9100;
 }
