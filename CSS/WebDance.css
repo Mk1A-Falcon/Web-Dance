@@ -10,8 +10,6 @@ header {
   border-radius: 30px;
   margin-bottom: 30px;
   margin-top: 20px;
-  padding-top: 8px;
-  padding-bottom: 8px;
 }
 h1 {
   color: rgb(29, 207, 198);
@@ -47,9 +45,12 @@ h2 {
   display: inline-block;
   font-family: "Black Ops One", Arial, Helvetica, sans-serif;
 }
-
+.inline-image {
+  height: 20px;
+  width: 20px;
+}
 .text {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 190px;
   margin-right: 190px;
   margin-bottom: 30px;
